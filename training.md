@@ -381,6 +381,80 @@ mean activation recall: 0.6839376301636666
 --- 0.7114999294281006 seconds ---
 ```
 
+custom_bce_loss
+mean  MSELoss: 0.000900647539787373
+mean  R2Score: 0.7654341312653241
+mean activation precision: 0.6037837090829705
+mean activation recall: 1.0
+--- 1.6899981498718262 seconds ---
+
+nn.BCEloss(act_x, act_y) on 10 epochs with loss.mean()
+R2Score: 0.35784109900979433
+mean  MSELoss: 0.002804409797218713
+mean activation precision: 0.7394782105113777
+mean activation recall: 0.7154768111332361
+--- 1.123999834060669 seconds ---
+
+nn.BCEloss(act_x, act_y) on 10 epochs
+mean  MSELoss: 0.002436368287301916
+mean  R2Score: 0.4276621925002113
+mean activation precision: 0.7540146325431489
+mean activation recall: 0.7214875778811302
+--- 1.8414990901947021 seconds ---
+
+nn.BCEloss(act_x, act_y) on 10 epochs
+mean  R2Score: 0.3590224694440709
+mean activation precision: 0.7536099333987423
+mean activation recall: 0.7654039052564349
+--- 1.4725000858306885 seconds ---
+
+nn.BCEloss(act_x, act_y) on 10 epochs divided by 4
+mean  R2Score: 0.4383729944892108
+mean activation precision: 0.7603127684959229
+mean activation recall: 0.7214094794148812
+--- 1.6970336437225342 seconds ---
+
+
+nn.BCEloss(x, act_y) on 10 epochs BEST ONE YET
+R2Score: 0.48552250670876734
+mean  MSELoss: 0.00205130935652819
+mean activation precision: 0.7647244481314099
+mean activation recall: 0.8467265433411535
+--- 1.266496181488037 seconds ---
+
+nn.BCEloss(x, act_y) on 10 epochs *0.01
+mean  R2Score: 0.5104033274446579
+mean  MSELoss: 0.001984603348484432
+mean activation precision: 0.7647740796663267
+mean activation recall: 0.847503245991605
+--- 1.5005006790161133 seconds ---
+
+nn.BCEloss(x, act_y) on 10 epochs *0.1
+mean  MSELoss: 0.0020500174339146
+mean  R2Score: 0.4973866980981062
+mean activation precision: 0.7647000103533311
+mean activation recall: 0.847005386630836
+--- 1.1439731121063232 seconds ---
+
+nn.BCEloss(x, act_y) on 10 epochs *0.001
+mean  R2Score: 0.5110649358142506
+mean MSE : 0.0020145395860003737
+mean activation precision: 0.7644546171314703
+mean activation recall: 0.8477524854249745
+--- 1.45749831199646 seconds ---
+
+nn.BCEloss(x, y) on 10 epochs *0.001
+mean  R2Score: -0.38873360373757104
+mean activation precision: 0.0
+mean activation recall: 0.0
+--- 1.800976276397705 seconds ---
+
+nn.BCEloss(x, act_y) on 10 epochs *0.001/4
+mean  MSELoss: 0.002060143272380001
+R2Score: 0.49865194724842826
+mean activation precision: 0.764369707548599
+mean activation recall: 0.8473444151248579
+--- 1.1374974250793457 seconds ---
 ### FCNet
 batch_size = 4
 lr=0.001

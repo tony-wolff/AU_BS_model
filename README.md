@@ -12,3 +12,38 @@ This repository contains model checkpoints and data for the mapping of OpenFace 
 - preprocessing_and_giga_dataset.ipynb : notebook to preprocess data (not available yet) and create the dataset used for my models
 - outliers : folder containing plotting of Action Unit 26 VS JawOpen blendshape of scripts that have a too large lag to be included in the final dataset
 - JawOpen_AU26_plots : folder of images containing the plot of Action Unit 26 VS JawOpen blendshape of all scripts
+
+
+### Installation tutorial 
+--------------------------------------------------------------------------------------------------------------------------------
+#### Ubuntu
+- install anaconda : https://docs.anaconda.com/free/anaconda/install/linux/
+- install OpenFace : https://github.com/TadasBaltrusaitis/OpenFace/wiki/Unix-Installation
+    - for Ubuntu < 22.04
+        1. Download both files from the github repository : download_models.sh and install.sh
+        2. installation
+            ```
+            ./download_models.sh
+            ./install.sh
+            ```
+        3. testing
+            ```
+            ./bin/FaceLandmarkVid -f "../samples/changeLighting.wmv" -f "../samples/2015-10-15-15-14.avi"
+            ```
+    - Using Docker
+        - install Docker
+        - run the docker script
+            ```
+            docker run -it --rm algebr/openface:latest
+            ```
+- activate environment and install requirements
+    1. clone the repository
+        ```
+        git clone tony-wolff/AU_BS_model.git
+        cd AU_BS_model
+        ```
+    2. create environment and install requirements
+        ```
+        conda create grunet_env
+        ```
+    3. 
