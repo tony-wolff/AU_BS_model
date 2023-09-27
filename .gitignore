@@ -7,6 +7,10 @@ all_normal/
 rnn_example.ipynb
 eng-fra.txt
 model comparison/
+demo.py
+outliers/
+openface_extraction/
+whole_test_dataset/
 
 1e3ce60a-3f76-5098-8be0-82e341ee9541/
 082b6e2e-1998-5c3c-892f-5cef247522d6/
