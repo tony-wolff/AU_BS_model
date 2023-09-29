@@ -1,0 +1,50 @@
+Nets,Epochs,"Training Time
+ (seconds)",Best Loss,"Testing Time
+ (seconds)","Mean Score
+ Loss","Mean
+ R2
+ Score","Mean Cosine
+ Similarity 
+ Score","Mean 
+ Activation
+ Recall","Mean
+ Activation 
+ Precision"
+"GRUNet
+ Trained with L1",31,242,0.0127,0.824,0.016,0.588,0.82,0.917,0.709
+"GRUNet
+ Trained with MSE",55,383,0.00076,1.02,0.0010,0.73,0.89,0.87,0.81
+"GRUNet
+ Trained with RMSE",41,347,0.028,0.94,0.032,0.70,0.88,0.77,0.86
+"GRUnetNeg
+ Trained with L1",58,534,0.011,0.79,0.015,0.68,0.87,1.0,0.60
+"GRUnetNeg
+ Trained with MSE",36,306,0.00101,1.00,0.0013,0.65,0.86,1.0,0.60
+"GRUNetNeg
+ Trained with RMSE",48,467,0.027,1.05,0.031,0.71,0.88,1.0,0.60
+"GRUNetPack
+ Trained with L1",56,1519,0.053,1.7,0.013,0.70,0.88,0.77,0.94
+"GRUNetPack
+ Trained with MSE",46,1138,0.0044,1.29,0.0011,0.71,0.88,0.77,0.87
+"GRUnetPack
+ Trained with RMSE",63,1861,0.117,1.36,0.029,0.74,0.90,0.80,0.87
+"GRUNetSig
+ Trained with L1",68,2518,0.073,1.46,0.020,0.56,0.82,0.85,0.79
+"GRUNetSig
+ Trained with MSE",67,2331,0.0214,1.43,0.0014,0.61,0.85,0.85,0.79
+"GRUNetSig
+ Trained with RMSE",59,2315,0.143,1.46,0.038,0.59,0.84,0.85,0.79
+"GRUNetSeq
+ Trained with L1",96,24452,0.055,4,0.014,0.74,0.90,1.0,0.63
+"GRUnetSeq
+ Trained with MSE",73,18190,0.0037,4,0.0010,0.73,0.90,1.0,0.60
+"GRUNetSeq
+ Trained with RMSE",78,19649,0.10,4.5,0.029,0.74,0.90,1.0,0.60
+"GRUNetAtt
+ Trained with L1",10,55028,0.088,46,0.020,0.52,0.80,1.0,0.60
+"FCNet
+ Trained with L1",23,383,0.0947,0.98,0.021,0.41,0.75,0.68,0.84
+"FCNet
+ Trained with MSE",15,220,0.0101,0.80,0.002,0.40,0.76,0.80,0.74
+"FCNet
+ Trained with RMSE",25,482,0.196,0.79,0.046,0.43,0.76,0.83,0.75
